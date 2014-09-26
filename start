@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ "$1" = "update" ]; then
+  /usr/bin/casperjs getips.js $2 $3 > ips.xml
+fi

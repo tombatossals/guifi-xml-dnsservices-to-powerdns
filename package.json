@@ -1,0 +1,29 @@
+{
+  "name": "guifi-xml-dnsservices-to-powerdns",
+  "version": "0.0.1",
+  "description": "Convert the DNSServices XML list of ip's to PowerDNS",
+  "main": "manage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tombatossals/guifi-xml-dnsservices-to-powerdns.git"
+  },
+  "keywords": [
+    "guifi.net",
+    "nodejs",
+    "xml"
+  ],
+  "author": "David Rubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tombatossals/guifi-xml-dnsservices-to-powerdns/issues"
+  },
+  "homepage": "https://github.com/tombatossals/guifi-xml-dnsservices-to-powerdns",
+  "dependencies": {
+    "casper": "^0.1.1",
+    "minimist": "^1.1.0",
+    "xml2js": "^0.4.4"
+  }
+}
