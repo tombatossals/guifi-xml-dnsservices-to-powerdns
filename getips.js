@@ -6,12 +6,12 @@ if (!casper.cli.args.length === 2) {
 }
 
 var user = casper.cli.get(0),
-    password = casper.cli.get(1);
+    pass = casper.cli.get(1);
 
-if (user && password) {
+if (user && pass) {
     casper.start('http://guifi.net/user/login', function() {
         casper.waitForSelector('form#user-login', function() {
-          this.fill('form#user-login', { name: username, pass: password }, true);
+          this.fill('form#user-login', { name: user, pass: pass }, true);
         });
     });
 
